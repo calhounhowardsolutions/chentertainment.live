@@ -1,0 +1,47 @@
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <!-- Header -->
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Check Availability</h2>
+                <hr class="primary">
+                <p>
+                    Tell us about your event, date, and location. You’ll get a quick response with availability,
+                    clear pricing, and exactly what to expect.
+                </p>
+            </div>
+        </div>
+
+        <!-- Contact Row -->
+        <div class="row text-center" style="margin-top: 40px;">
+
+            <!-- Email -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <a href="mailto:{{ site.email }}">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn"></i>
+                    <p></p>
+                    <p>{{ site.email }}</p>
+                </a>
+            </div>
+
+            <!-- Quote Form -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <a href="{{ site.quote_form_url }}">
+                    <i class="fa fa-file-text-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p></p>
+                    <p>Request a Quote</p>
+                </a>
+            </div>
+
+            <!-- Phone -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <a href="tel:{{ site.phone }}">
+                    <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+                    <p></p>
+                    <p>{{ site.phone }}</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
