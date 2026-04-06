@@ -48,7 +48,7 @@ p {
 }
 
 .bg-dark {
-  background-color: #0A0F1C;
+  background-color: #0e1629;
   color: white;
 }
 
@@ -70,7 +70,7 @@ aside {
 
 .navbar-default {
   background-color: white;
-  border-color: rgba(10, 15, 28, 0.5);
+  border-color: rgba(14, 22, 41, 0.5);
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -90,7 +90,7 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #0A0F1C;
+  color: #0e1629;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -126,7 +126,7 @@ aside {
   }
   .navbar-default.affix {
     background-color: white;
-    border-color: rgba(10, 15, 28, 0.5);
+    border-color: rgba(14, 22, 41, 0.5);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #3A6EA5;
@@ -137,7 +137,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #0A0F1C;
+    color: #0e1629;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -287,7 +287,7 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-  color: #0A0F1C;
+  color: #0e1629;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -295,7 +295,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle .btn-default {
-  color: #0A0F1C;
+  color: #0e1629;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -308,7 +308,7 @@ header .header-content .header-content-inner p {
 }
 .btn-default .badge {
   color: white;
-  background-color: #0A0F1C;
+  background-color: #0e1629;
 }
 
 .btn-primary {
@@ -349,20 +349,20 @@ header .header-content .header-content-inner p {
 }
 
 #contact .fa {
-  color: #0A0F1C;
+  color: #0e1629;
   font-size: 4em;
 }
 
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0A0F1C;
+  background: #0e1629;
 }
 
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0A0F1C;
+  background: #0e1629;
 }
 
 img::selection {
@@ -376,7 +376,7 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: #0A0F1C;
+  -webkit-tap-highlight-color: #0e1629;
 }
 
 /*# sourceMappingURL=main.css.map */
